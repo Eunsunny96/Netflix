@@ -3,27 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		ADB0D06E26E24818005C8F8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0D06D26E24818005C8F8F /* AppDelegate.swift */; };
 		ADB0D07026E24818005C8F8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0D06F26E24818005C8F8F /* SceneDelegate.swift */; };
-		ADB0D07226E24818005C8F8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0D07126E24818005C8F8F /* ViewController.swift */; };
-		ADB0D07526E24818005C8F8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0D07326E24818005C8F8F /* Main.storyboard */; };
-		ADB0D07726E24819005C8F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB0D07626E24819005C8F8F /* Assets.xcassets */; };
 		ADB0D07A26E24819005C8F8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0D07826E24819005C8F8F /* LaunchScreen.storyboard */; };
+		ADB0D08A26E24851005C8F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB0D08126E24850005C8F8F /* Assets.xcassets */; };
+		ADB0D08B26E24851005C8F8F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0D08226E24850005C8F8F /* HomeViewController.swift */; };
+		ADB0D08D26E24851005C8F8F /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0D08426E24850005C8F8F /* PlayerViewController.swift */; };
+		ADB0D08E26E24851005C8F8F /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0D08526E24850005C8F8F /* PlayerView.swift */; };
+		ADB0D08F26E24851005C8F8F /* RecommendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0D08626E24850005C8F8F /* RecommendListViewController.swift */; };
+		ADB0D09026E24851005C8F8F /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0D08726E24850005C8F8F /* Player.storyboard */; };
+		ADB0D09126E24851005C8F8F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0D08826E24851005C8F8F /* SearchViewController.swift */; };
+		ADB0D09226E24851005C8F8F /* AppTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0D08926E24851005C8F8F /* AppTabbarController.swift */; };
+		ADB0D09526E248B0005C8F8F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = ADB0D09426E248B0005C8F8F /* Kingfisher */; };
+		ADB0D09726E24C82005C8F8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0D09626E24C82005C8F8F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADB0D06A26E24818005C8F8F /* Netflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB0D06D26E24818005C8F8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB0D06F26E24818005C8F8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADB0D07126E24818005C8F8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ADB0D07426E24818005C8F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ADB0D07626E24819005C8F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADB0D07926E24819005C8F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB0D07B26E24819005C8F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB0D08126E24850005C8F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/올인원패키지-ios앱개발-강의자료-ch11-15/CH15 넷플릭스st 영상앱/starter/MyNetflix/MyNetflix/Assets.xcassets"; sourceTree = "<group>"; };
+		ADB0D08226E24850005C8F8F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ADB0D08426E24850005C8F8F /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		ADB0D08526E24850005C8F8F /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		ADB0D08626E24850005C8F8F /* RecommendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendListViewController.swift; sourceTree = "<group>"; };
+		ADB0D08726E24850005C8F8F /* Player.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
+		ADB0D08826E24851005C8F8F /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		ADB0D08926E24851005C8F8F /* AppTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTabbarController.swift; sourceTree = "<group>"; };
+		ADB0D09626E24C82005C8F8F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB0D09526E248B0005C8F8F /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +72,15 @@
 			children = (
 				ADB0D06D26E24818005C8F8F /* AppDelegate.swift */,
 				ADB0D06F26E24818005C8F8F /* SceneDelegate.swift */,
-				ADB0D07126E24818005C8F8F /* ViewController.swift */,
-				ADB0D07326E24818005C8F8F /* Main.storyboard */,
-				ADB0D07626E24819005C8F8F /* Assets.xcassets */,
+				ADB0D08926E24851005C8F8F /* AppTabbarController.swift */,
+				ADB0D08126E24850005C8F8F /* Assets.xcassets */,
+				ADB0D08226E24850005C8F8F /* HomeViewController.swift */,
+				ADB0D08726E24850005C8F8F /* Player.storyboard */,
+				ADB0D09626E24C82005C8F8F /* Main.storyboard */,
+				ADB0D08526E24850005C8F8F /* PlayerView.swift */,
+				ADB0D08426E24850005C8F8F /* PlayerViewController.swift */,
+				ADB0D08626E24850005C8F8F /* RecommendListViewController.swift */,
+				ADB0D08826E24851005C8F8F /* SearchViewController.swift */,
 				ADB0D07826E24819005C8F8F /* LaunchScreen.storyboard */,
 				ADB0D07B26E24819005C8F8F /* Info.plist */,
 			);
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = Netflix;
+			packageProductDependencies = (
+				ADB0D09426E248B0005C8F8F /* Kingfisher */,
+			);
 			productName = Netflix;
 			productReference = ADB0D06A26E24818005C8F8F /* Netflix.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +133,9 @@
 				Base,
 			);
 			mainGroup = ADB0D06126E24818005C8F8F;
+			packageReferences = (
+				ADB0D09326E248B0005C8F8F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = ADB0D06B26E24818005C8F8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,9 +150,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB0D09026E24851005C8F8F /* Player.storyboard in Resources */,
+				ADB0D08A26E24851005C8F8F /* Assets.xcassets in Resources */,
 				ADB0D07A26E24819005C8F8F /* LaunchScreen.storyboard in Resources */,
-				ADB0D07726E24819005C8F8F /* Assets.xcassets in Resources */,
-				ADB0D07526E24818005C8F8F /* Main.storyboard in Resources */,
+				ADB0D09726E24C82005C8F8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +164,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADB0D07226E24818005C8F8F /* ViewController.swift in Sources */,
 				ADB0D06E26E24818005C8F8F /* AppDelegate.swift in Sources */,
+				ADB0D09126E24851005C8F8F /* SearchViewController.swift in Sources */,
+				ADB0D08D26E24851005C8F8F /* PlayerViewController.swift in Sources */,
 				ADB0D07026E24818005C8F8F /* SceneDelegate.swift in Sources */,
+				ADB0D08F26E24851005C8F8F /* RecommendListViewController.swift in Sources */,
+				ADB0D09226E24851005C8F8F /* AppTabbarController.swift in Sources */,
+				ADB0D08E26E24851005C8F8F /* PlayerView.swift in Sources */,
+				ADB0D08B26E24851005C8F8F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ADB0D07326E24818005C8F8F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADB0D07426E24818005C8F8F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADB0D07826E24819005C8F8F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +365,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ADB0D09326E248B0005C8F8F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADB0D09426E248B0005C8F8F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADB0D09326E248B0005C8F8F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ADB0D06226E24818005C8F8F /* Project object */;
 }
